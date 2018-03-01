@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>打印结果</title>
-<div id="search"><?php
+<div id="search">
+<?php
 @$fileInfo=$_FILES['files'];
 @$printcopies=$_POST['copies'];
 @$printername=$_POST['printername'];
@@ -76,6 +77,5 @@ if ($error==UPLOAD_ERR_OK){
 }
 ?>
 </div>
-<script src="js/jquery.min.js"></script>
 </body>
 </html>
